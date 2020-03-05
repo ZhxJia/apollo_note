@@ -58,7 +58,7 @@ postprocessor_param {
 根据外部参数配置定义文件` ../perception/lib/obstacle/postprocessor/location_refiner/location_refiner.proto`，按照上述`config.pt`更改默认配置如下
 
 ```c++
-min_dist_to_camera: 30.0
+min_dist_to_camera: 30.0 //这两个参数为限定哪些障碍物可以进行后处理
 roi_h2bottom_scale: 0.5
 ```
 
